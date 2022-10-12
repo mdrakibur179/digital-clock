@@ -52,3 +52,17 @@ h2 {
     width: 60px;
     background: green;
 }
+
+@media only screen and (max-width: 600px) {
+    .clock {
+      display: block;
+    }
+    .clock div {
+        position: relative;
+    }
+    .clock .ampm {
+        position: absolute;
+        top: 10px;
+        width: 100px;
+    }
+  }
